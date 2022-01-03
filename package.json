@@ -1,0 +1,31 @@
+{
+  "name": "amazonapi",
+  "version": "1.0.0",
+  "description": "Backend api for the react-amazonclone",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js | bunyan",
+    "production": "node index.js | bunyan"
+  },
+  "keywords": [
+    "amazonclone",
+    "backend",
+    "api",
+    "express"
+  ],
+  "author": "ikki",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
